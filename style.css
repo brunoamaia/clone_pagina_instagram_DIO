@@ -20,12 +20,9 @@ body {
 .instagram-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.instagram-phone {
-  width: 100%;
-}
 
 .instagram-continue {
   display: flex;
@@ -105,8 +102,37 @@ body {
   padding: 0.5rem;
 }
 
-
 .app-download img {
   height: 3rem;
   width: 10rem;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: #fff;
+  }
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-continue {
+    width: 100%;
+  }
+
+  .group {
+    border: none;
+  }
 }
