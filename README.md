@@ -1,2 +1,3 @@
 # clone_pagina_instagram_DIO
- recriando a página inicial do Instagram
+
+Constuindo a parte estética da página inicial do Instagram utilizando apenas HTML5 e CSS3.
